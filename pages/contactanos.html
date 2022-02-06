@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMEWARE - Contactanos</title>
+<!--Favicon-->
+    <link rel="icon" href="../assets/img/favicon.ico">
+<!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap" rel="stylesheet">
+<!--Link CSS-->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="gridAreas fondo">
+    <header>
+        <nav class="navMenu">
+            <a href="../index.html" class="logo voltearLogo">
+                <img class="logoImg" src="../assets/img/GamwareL.png" alt="logo">
+            </a>
+            <ul class="navList fade">
+                <li><a href="../pages/productos.html">Productos</a></li>
+                <li><a href="../pages/envios.html">Envíos</a></li>
+                <li><a href="../pages/nuestrolocal.html">Nuestro Local</a></li>
+                <li><a href="../pages/contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <img class="portada" src="../assets/img/rsportada.jpg" alt="Imagen de contactanos">
+    </section>
+    <main>
+        <article class="redes">
+            <div><a href="https://www.facebook.com">Facebook</a></div>
+            <div><a href="https://www.instagram.com">Instagram</a></div>
+            <div><a href="https://www.twitter.com">Twitter</a></div>
+        </article>
+        <article class="centrarFormulario textoSlide"> 
+            <h3>Envianos tus sugerencias</h3>
+            <label for="text">Nombre:</label>
+            <input type="text" name="Nombre"><br>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="abcd@gmail.com" name="email"><br>
+            <span>
+                <p>Calidad de nuestra atención</p>
+				<div>Excelente:
+					<input type="radio" name="lado" value="izquierda">
+				</div>
+				<div>Bueno:
+					<input type="radio" name="lado" value="derecha">
+				</div>
+                <div>Regular:
+					<input type="radio" name="lado" value="derecha">
+				</div>
+            </span>
+                <p>Que te parecieron nuestros productos?</p>
+			<select name="letra"> 
+				<option value="x">Excelentes!</option>
+				<option value="y">Buenos</option>
+				<option value="z">Regulares</option>
+            </select><br>
+            <p>Deja tus comentarios aquí abajo:</p>
+            <textarea class="textArea" name="Sugerencias" cols="30" rows="10">Sugerencias</textarea><br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Borrar todo">
+        </article>
+    </main>
+    <hr>
+    <footer class="contenidoFooter">
+        <div class="fade">
+            <img src="../assets/img/GamwareL.png" alt="logo">
+            <h4>Contactanos</h4>
+            <h5>WhatsApp: 12-3456-7890</h5>
+            <h5>Dirección: Av. Calle 123</h5>
+            <h5>E-mail: gameware@shop.com</h5>             
+        </div>
+    </footer>
+
+</body>
+</html>
